@@ -1,11 +1,12 @@
 import math, random 
 #
 num1=input("num1:\n")
-num1
-op = input("num1:\n")
+num1_init=int(num1)
+op = input("Add,Subtract,multiple,divide:\n")
 num2=input("num2:\n")
+num2_init=int(num2)
 if op == "+" :
-    print(num1+num2)
+    print(num1_init+num2_init)
  
 
 
