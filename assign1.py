@@ -15,4 +15,3 @@ print(math.sqrt(int(input("Enter a number for Square root : "))))
 
 #finding a random number between,including 1 and 100, 1-100
 print(random.randint(1,100))
-
