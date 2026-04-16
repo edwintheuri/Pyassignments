@@ -1,13 +1,17 @@
 import math, random 
-#
-num1=input("num1:\n")
-num1_init=int(num1)
-op = input("Add,Subtract,multiple,divide:\n")
-num2=input("num2:\n")
-num2_init=int(num2)
-if op == "+" :
+### 
+# This is a simple Calculator that  Does Basic Arithmetic
+# Shows a random number 
+# shows a finds squareroot
+# ###
+num1=input("num1, no decimals:\n")    
+num1_init=int(num1) 
+op = input("Add,Subtract,multiple,divide:\n") 
+num2=input("num2, no decimals:\n") 
+num2_init=int(num2) 
+if op == "+" :  
     print(num1_init+num2_init)
- 
+
 
 
 
