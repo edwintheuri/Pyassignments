@@ -11,8 +11,15 @@ num2=input("num2, no decimals:\n")
 num2_init=int(num2) 
 if op == "+" :  
     print(num1_init+num2_init)
-
-
+elif op == "-":
+    print(num1_init+num2_init)
+elif op == "*":
+    print(num1_init+num2_init)
+elif op == "/":
+    print(num1_init+num2_init)
+    
+else:
+    print("please enter +, *, /, -")
 
 
 #finding a square root of any input
